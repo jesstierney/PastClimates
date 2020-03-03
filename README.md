@@ -6,10 +6,14 @@ This repository is a collection of useful data and code for plotting past climat
 ## List of files
 
 `co2Binned.csv`
-This file contains binned estimates of past carbon dioxide levels based on multiple proxies (stomata, paleosols, algal lipids, boron isotopes). The bins are larger moving back in time, in accordance with data availibility. The CO<sub>2</sub> proxy data include the collection of Foster et al. (2017) *Nature Communications* as well as data published since then, including new boron data (Super et al., 2018; Sosdian et al., 2018; Henehan et al., 2019) and phytane data (Witkowski et al., 2018). For each time bin, available data and their accompanying 1-sigma ranges were averaged together. Data with mean values below 150 ppm were excluded from the bin average on the basis that this level of CO<sub>2</sub> is below the lowest values observed during the Late Pleistocene glaciations from the ice core record and therefore not physically plausible (especially for warmer Mesozoic and Cenozoic climates).
+This file contains binned estimates of past carbon dioxide levels based on multiple proxies (stomata, paleosols, algal lipids, boron isotopes). The bins are larger moving back in time, in accordance with data availability. The CO<sub>2</sub> proxy data include the collection of Foster et al. (2017) *Nature Communications* <https://doi.org/10.1038/ncomms14845> as well as data published since then, including new boron (Sosdian et al., 2018 <https://doi.org/10.1016/j.epsl.2018.06.017>; Henehan et al., 2019 <https://doi.org/10.1073/pnas.1905989116>) and algal lipid (Super et al., 2018 <https://doi.org/10.1130/G40228.1>, Witkowski et al., 2018 <https://doi.org/10.1126/sciadv.aat4556>) data. For each time bin, available data and their accompanying 1-sigma lower and upper bounds were averaged together. Data with mean values below 150 ppm were excluded from the bin average on the basis that this level of CO<sub>2</sub> is below the lowest values observed during the Late Pleistocene glaciations from the ice core record and is therefore not physically plausible (especially for warmer Mesozoic and Cenozoic climates).
 
 `co2Smoothed.csv`
+This file contains a resampled, smoothed version of the `co2Binned.csv`. The data in `co2Binned.csv` were resampled to 0.4 Ma timesteps and then smoothed with a Gaussian filter with a length of 8 Ma. The result is plotted in Figure 1 of *Past climates inform our future*.
+
 `THansenMethod.csv`
+This file contains a reconstruction of global mean annual surface temperature. Data from 65.5--0 Ma are taken directly from Hansen et al., (2013) <https://doi.org/10.1098/rsta.2012.0294>. The time series is then extended to 114.5 Ma using the Mesozoic compilation of benthic \delta<sup>18</sup>O of Friedrich et al., (2012) <https://doi.org/10.1130/G32701.1> and applying the same scaling method used by Hansen et al., (2013) for ice-free climates. Any \delta<sup>18</sup>O data assigned to the same time interval were averaged prior to transformation to temperature.
+
 `THansenMethodSmoothed.csv`
 `RCPcGENIE.csv`
 
