@@ -18,4 +18,4 @@ This file contains a reconstruction of global mean annual surface temperature. D
 This file contains a resampled, smoothed version of `THansenMethod.csv`. Data were resampled to 0.2 Ma timesteps and then smoothed with a Gaussian filter with a length of 6 Ma. These data are plotted in Figure 1 of *Past climates inform our future*.
 
 `RCPcGENIE.csv`
-This file contains projected atmospheric CO<sub>2</sub> values from 1750 AD to 500,000 years in the future under the IPCC AR5 Representative Concentration Pathways. Projections use the carbon-centric Grid Enabled Integrated Earth System Model (cGEnIE), an Earth System model of intermediate complexity.
+This file contains projected atmospheric CO<sub>2</sub> values from 1750 AD to 500,000 years in the future under the IPCC AR5 Representative Concentration Pathways. Projections use the carbon-centric Grid Enabled Integrated Earth System Model (cGEnIE), an Earth System model of intermediate complexity. These data are plotted in Figure 4 of *Past climates inform our future*.
