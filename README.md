@@ -1,6 +1,6 @@
 # PastClimates
 <p align="center">
-<img src="pastFutureCO2.jpg" alt="Past and future carbon dioxide" width="600"/>
+<img src="pastFutureCO2.jpg" alt="Past and future carbon dioxide" width="700"/>
 </p>
 
 This repository is a collection of useful data representing past climate changes. The data currently archived here are Supplements to the Review paper *Past climates inform our future*, published in 2020 in *Science*. When using these data, please cite our paper:
